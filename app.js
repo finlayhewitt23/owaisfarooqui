@@ -37,8 +37,8 @@ console.log(allItems);
 
 //! Task 2
 var obj = {
-    name: "ameen",
-    email: "muhammadameenh1@gmail.com",
+    name: "owais",
+    email: "owas.farooqu212@gmal.com",
     password: "12345",
     age: 18,
     gender: "Male",
@@ -54,18 +54,18 @@ if("age" in obj && "country" in obj == true){
 
 //! Task 3
 
-function Ameen(first, last, age, country){
+function owais(first, last, age, country){
     this.firstName = first;
     this.lastName = last;
     this.age = age;
     this.country = country;
 }
 
-const introSir = new Ameen("Ishaq", "Bhojani", 20, "Pakistan")
-const introAmeen = new Ameen("Muhammad", "Ameen", 18, "Pakistan");
-const introZahid = new Ameen("Muhammad", "Zahid", 24, "Pakistan")
+const introSir = new owais("Ishaq", "Bhojani", 20, "Pakistan")
+const introfasih = new owais("Muhammad", "fasih", 18, "Pakistan");
+const introZahid = new owais("Muhammad", "Zahid", 24, "Pakistan")
 
-console.log(intro.age);
+console.log( introSir );
 
 ////! Task 4
 
